@@ -1,0 +1,51 @@
+@import "tailwindcss";
+:root{
+  --background-color : #e4e4e4;
+  --primary-color : #fdfdfd;
+  --secondary-color : #262626;
+}
+@font-face {
+  font-family: 'DMsans-bold';
+  src: url(./assets/Fonts/DMSans-Bold.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'DMsans-Medium';
+  src: url(./assets/Fonts/DMSans-Medium.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'DMsans-Regular';
+  src: url(./assets/Fonts/DMSans-Regular.ttf) format('ttf');
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(./assets/Fonts/Inter-Bold.otf) format('otf');
+}
+@font-face {
+  font-family: 'Inter-Medium';
+  src: url(./assets/Fonts/Inter-Medium.otf) format('otf');
+}
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(./assets/Fonts/Inter-Regular.otf) format('otf');
+}
+@font-face {
+  font-family: 'Inter-Semibold';
+  src: url(./assets/Fonts/Inter-SemiBold.otf) format('ttf');
+}
+@font-face {
+  font-family: 'SpaceGrotesk';
+  src: url(./assets/Fonts/SpaceGrotesk-Variable.ttf) format('ttf');
+}
+
+
+body{
+  background-color: #e4e4e4;
+}
+.companyName{
+  color: var(--secondary-color);
+  font-family: 'Inter-Bold';
+  font-weight: 800;
+}
+.Title{
+    font-family: 'DMsans-Regular';
+}
