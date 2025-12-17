@@ -1,0 +1,52 @@
+@import "tailwindcss";
+:root {
+  --background-color: #d2d0d0;
+  --primary-color: #fdfdfd;
+  --secondary-color: #262626;
+  --third-color : #aba7a7a5;
+}
+@font-face {
+  font-family: "DMsans-bold";
+  src: url(./assets/Fonts/DMSans-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "DMsans-Regular";
+  src: url(./assets/Fonts/DMSans-Regular.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Inter-Bold";
+  src: url(./assets/Fonts/Inter-Bold.otf) format("otf");
+}
+@font-face {
+  font-family: "Inter-Regular";
+  src: url(./assets/Fonts/Inter-Regular.otf) format("otf");
+}
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url(./assets/Fonts/SpaceGrotesk-Variable.ttf) format("ttf");
+}
+@font-face {
+  font-family: "HelveticaNowDisplay";
+  src: url(./assets/Fonts/HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff2) format("ttf");
+}
+
+body {
+  background-color: #e4e4e4;
+}
+.heading {
+  color: var(--secondary-color);
+  font-family: "Inter-Bold";
+  font-weight: 800;
+}
+.Title {
+  font-family: "DMsans-Regular";
+  font-weight: 500;
+}
+.mainHeading{
+  font-family: "HelveticaNowDisplay";
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+.number{
+  font-family: "DMsans-bold";
+}
