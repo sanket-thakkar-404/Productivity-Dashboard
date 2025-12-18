@@ -4,12 +4,13 @@ import "remixicon/fonts/remixicon.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainContent from "./pages/Dashboard/MainContent";
 import Task from "./pages/Dashboard/Task";
+import Calender from "./pages/Dashboard/Calender";
 
 const App = () => {
   return (
     <BrowserRouter>
       {/* ONE ROOT LAYOUT */}
-      <div className="flex h-screen p-8 gap-5">
+      <div className="flex h-screen p-8 gap-5 overflow-hidden ">
         {/* LEFT: Sidebar */}
         <Sidebar />
         <div className="flex-6">
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/" element={<MainContent />} />
             <Route path="/timer" element={<Timer />} />
             <Route path="/task" element={<Task />} />
+            <Route path="/calendar" element={<Calender/>} />
           </Routes>
         </div>
       </div>

@@ -23,9 +23,9 @@ const MonthlyChecklistCard = ({ goals, completed, setCompleted }) => {
               type="checkbox"
               checked={isDone}
               onChange={() => toggleGoal(index)}
-              className="accent-black"
+              className="accent-black text-xl"
             />
-            <span>{goal}</span>
+            <span className="text-xl">{goal}</span>
           </label>
         );
       })}

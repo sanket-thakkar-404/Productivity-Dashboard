@@ -1,9 +1,10 @@
 import React from 'react'
+import TaskCards from '../../Components/OverView/TaskCards'
 
 const Task = () => {
   return (
-    <div>
-      This is task
+    <div className='flex gap-5 flex-wrap'>
+      <TaskCards/>
     </div>
   )
 }

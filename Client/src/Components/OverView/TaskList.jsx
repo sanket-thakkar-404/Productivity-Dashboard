@@ -5,7 +5,7 @@ const TaskList = ({ id, title, date, onDelete, onEdit, onPin }) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="relative shrink-0 w-64 min-h-44 rounded-2xl bg-white p-5">
+    <div className="relative w-64 min-h-44 rounded-2xl bg-white p-5">
       
       <div className="flex justify-between mb-3">
         <i className={`ri-gift-line text-3xl`} />

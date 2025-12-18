@@ -18,7 +18,7 @@ const Overview = () => {
         <WeeklyProgressCard />
         <MonthlyProgressCard />
       </div>
-      <div className="grid grid-cols-10 gap-5">
+      <div className="grid grid-cols-9 gap-5">
         <MonthlyGoalCard/>
         <TaskCard/>
       </div>

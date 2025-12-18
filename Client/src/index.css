@@ -3,7 +3,7 @@
   --background-color: #d2d0d0;
   --primary-color: #fdfdfd;
   --secondary-color: #262626;
-  --third-color : #aba7a7a5;
+  --third-color: #aba7a7a5;
 }
 @font-face {
   font-family: "DMsans-bold";
@@ -27,7 +27,8 @@
 }
 @font-face {
   font-family: "HelveticaNowDisplay";
-  src: url(./assets/Fonts/HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff2) format("ttf");
+  src: url(./assets/Fonts/HelveticaNowDisplay-Light_M4nzWhve6k_k7HolyzL10.woff2)
+    format("ttf");
 }
 
 body {
@@ -42,11 +43,20 @@ body {
   font-family: "DMsans-Regular";
   font-weight: 500;
 }
-.mainHeading{
+.mainHeading {
   font-family: "HelveticaNowDisplay";
   text-transform: capitalize;
   letter-spacing: 1px;
 }
-.number{
+.number {
   font-family: "DMsans-bold";
+}
+.timeSlot {
+  overflow-y: auto; /* scroll enable */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / old Edge */
+}
+
+.timeSlot::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
 }

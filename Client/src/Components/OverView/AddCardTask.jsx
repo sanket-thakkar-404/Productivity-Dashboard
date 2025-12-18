@@ -7,7 +7,7 @@ const AddCardTask = ({ isAdding, setIsAdding, onAdd }) => {
     return (
       <div
         onClick={() => setIsAdding(true)}
-        className="w-50 shrink-0 h-50 rounded-2xl border-2 border-dashed
+        className="w-60  shrink-0 h-50 rounded-2xl border-2 border-dashed
                    flex flex-col items-center justify-center
                    cursor-pointer hover:bg-gray-100"
       >
