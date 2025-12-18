@@ -4,7 +4,7 @@ const TaskMenuItem = ({ onPin, onEdit, onDelete }) => {
       
       <button
         onClick={onPin}
-        className="w-full flex items-center gap-2 px-3 py-2 hover:bg-gray-700 rounded"
+        className="w-full rounded-2xl flex items-center gap-2 px-3 py-2 hover:bg-gray-700"
       >
         <i className="ri-pushpin-line"></i> Pin
       </button>

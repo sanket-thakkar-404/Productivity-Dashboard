@@ -16,7 +16,7 @@ const TaskList = ({ id, title, date, onDelete, onEdit, onPin }) => {
         />
       </div>
 
-      <h1 className="text-xl mb-4 min-h-20">{title}</h1>
+      <div className="text-xl mb-4 min-w-40 min-h-20 break-words">{title}</div>
 
       <div className="flex justify-between text-gray-500">
         <span>{date}</span>
