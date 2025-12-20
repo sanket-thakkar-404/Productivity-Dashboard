@@ -36,11 +36,12 @@ const Timer = () => {
       const next = getNextMode(mode);
       setMode(next);
       setTime(MODES[next].duration);
+      setRunning(false);
       return;
     }
 
     const id = setInterval(() => {
-      setTime(prev => prev - 1);
+      setTime((prev) => prev - 1);
     }, 1000);
 
     return () => clearInterval(id);
@@ -62,15 +63,12 @@ const Timer = () => {
     <div className="p-5 h-[94vh] w-full">
       <div className="flex justify-center items-center h-full">
         <div className="flex flex-col items-center gap-10">
-
           {/* Timer Display */}
           <div className="text-center">
             <h1 className="text-3xl font-bold text-gray-500">
               {MODES[mode].label}
             </h1>
-            <h1 className="text-9xl font-bold">
-              {formatTime(time)}
-            </h1>
+            <h1 className="text-9xl font-bold">{formatTime(time)}</h1>
           </div>
 
           {/* Mode Cards */}
@@ -100,12 +98,11 @@ const Timer = () => {
 
           {/* Start / Pause */}
           <button
-            onClick={() => setRunning(prev => !prev)}
+            onClick={() => setRunning((prev) => !prev)}
             className="px-10 py-3 rounded-xl bg-black text-white text-lg"
           >
             {running ? "Pause" : "Start"}
           </button>
-
         </div>
       </div>
     </div>

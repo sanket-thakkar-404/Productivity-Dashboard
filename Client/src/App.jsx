@@ -5,6 +5,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainContent from "./pages/Dashboard/MainContent";
 import Task from "./pages/Dashboard/Task";
 import Calender from "./pages/Dashboard/Calender";
+import Motivational from "./pages/Dashboard/Motivational";
+import Weather from "./pages/Dashboard/Weather";
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
             <Route path="/timer" element={<Timer />} />
             <Route path="/task" element={<Task />} />
             <Route path="/calendar" element={<Calender/>} />
+            <Route path="/motivation" element={<Motivational/>} />
+            <Route path="/weather" element={<Weather/>} />
           </Routes>
         </div>
       </div>
