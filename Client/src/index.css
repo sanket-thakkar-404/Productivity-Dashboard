@@ -5,7 +5,7 @@
   --secondary-color: #262626;
   --third-color: #aba7a7a5;
 }
-@font-face {
+  @font-face {
   font-family: "DMsans-bold";
   src: url(./assets/Fonts/DMSans-Bold.ttf) format("ttf");
 }
@@ -65,14 +65,14 @@ body {
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE / old Edge */
 }
-.dashboard ::-webkit-scrollbar{
+.dashboard ::-webkit-scrollbar {
   display: none;
 }
-.weather{
+.weather {
   overflow-y: auto; /* scroll enable */
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE / old Edge */
 }
-.weather::-webkit-scrollbar{
+.weather::-webkit-scrollbar {
   display: none;
 }

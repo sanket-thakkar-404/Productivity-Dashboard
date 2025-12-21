@@ -18,11 +18,6 @@ export const SidebarSection = [
         route: "/timer",
       },
       {
-        label: "Assignment",
-        icon: "ri-file-list-line",
-        route: "/assignment",
-      },
-      {
         label: "Tasks",
         icon: "ri-task-line",
         route: "/task",
@@ -43,16 +38,7 @@ export const SidebarSection = [
         icon: "ri-cloud-line",
         route: "/weather",
       },
-      {
-        label: "Notion",
-        icon: "ri-notion-line",
-        route: "/notion",
-      },
-      {
-        label: "Google",
-        icon: "ri-google-line",
-        route: "/google",
-      },
+      
     ],
   },
 

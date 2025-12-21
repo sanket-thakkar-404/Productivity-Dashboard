@@ -4,7 +4,6 @@ import WeeklyProgressCard from "./WeeklyProgressCard";
 import MonthlyProgressCard from "./MonthlyProgressCard";
 import MonthlyGoalCard from "./MonthlyGoalCard";
 import TaskCard from "./TaskCard";
-import WeatherCard from "../Weather/WeatherCard";
 import WeatherWidget from "../Weather/WeatherWidgets";
 
 const Overview = () => {

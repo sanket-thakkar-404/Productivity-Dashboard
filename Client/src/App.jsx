@@ -7,6 +7,7 @@ import Task from "./pages/Dashboard/Task";
 import Calender from "./pages/Dashboard/Calender";
 import Motivational from "./pages/Dashboard/Motivational";
 import Weather from "./pages/Dashboard/Weather";
+import Profile from "./pages/Dashboard/Profile";
 
 const App = () => {
 
@@ -29,6 +30,7 @@ const App = () => {
             <Route path="/calendar" element={<Calender/>} />
             <Route path="/motivation" element={<Motivational/>} />
             <Route path="/weather" element={<Weather/>} />
+            <Route path="/profile" element={<Profile/>} />
           </Routes>
         </div>
       </div>
