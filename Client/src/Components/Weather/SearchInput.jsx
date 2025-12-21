@@ -7,7 +7,7 @@ const SearchInput = ({city , setCity}) => {
         value={city}
         onChange={(e) => setCity(e.target.value)}
         placeholder="Enter city"
-        className="w-full outline-none  "
+        className="w-full outline-none "
       />
       <div>
         <i className="text-xl ri-search-line"></i>
