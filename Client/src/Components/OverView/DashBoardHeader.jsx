@@ -3,7 +3,7 @@ import IconButton from "./IconButton";
 
 const DashBoardHeader = ({ username , profile }) => {
   return (
-    <header className="flex justify-between p-5 items-center">
+    <header className="flex sticky justify-between p-5 items-center">
       {/* Greeting */}
       <h2 className="heading text-3xl">Hi ! {username}</h2>
 

@@ -4,15 +4,19 @@ import WeeklyProgressCard from "./WeeklyProgressCard";
 import MonthlyProgressCard from "./MonthlyProgressCard";
 import MonthlyGoalCard from "./MonthlyGoalCard";
 import TaskCard from "./TaskCard";
+import WeatherCard from "../Weather/WeatherCard";
+import WeatherWidget from "../Weather/WeatherWidgets";
 
 const Overview = () => {
   return (
-    <div>
+    <div className="h-[94vh] w-full dashboard">
       <DashBoardHeader
         username="Sanket Thakkar"
         profile="https://tecdn.b-cdn.net/img/new/avatars/2.webp"
       />
-
+        <div className="mt-5 mb-5">
+         <WeatherWidget compact/>
+        </div>
       <div className="grid grid-cols-3 gap-5 mb-8">
         <OverallInfoCard />
         <WeeklyProgressCard />

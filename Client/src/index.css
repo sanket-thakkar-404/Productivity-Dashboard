@@ -60,3 +60,19 @@ body {
 .timeSlot::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+.dashboard {
+  overflow-y: auto; /* scroll enable */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / old Edge */
+}
+.dashboard ::-webkit-scrollbar{
+  display: none;
+}
+.weather{
+  overflow-y: auto; /* scroll enable */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE / old Edge */
+}
+.weather::-webkit-scrollbar{
+  display: none;
+}

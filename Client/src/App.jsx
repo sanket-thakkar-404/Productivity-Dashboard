@@ -9,6 +9,10 @@ import Motivational from "./pages/Dashboard/Motivational";
 import Weather from "./pages/Dashboard/Weather";
 
 const App = () => {
+
+
+
+
   return (
     <BrowserRouter>
       {/* ONE ROOT LAYOUT */}
